@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!---Custom CSS-->
+    <link rel="stylesheet" href="style.css">
+    <!---Bootstrap CSS-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!---Funciones Javascript-->
+    <script src="/myScriptCalc.js"></script>
+    <!---Fontawesome icons-->
+    <script src="https://kit.fontawesome.com/22632f48e5.js" crossorigin="anonymous"></script>
+    <title>Calculadora-HTML/CSS/JS -- Tarea</title>
+</head>
+<body onload="calculadora();">
+    <div class="container-col6">
+
+        <table class="table table-bordered" id="calculadora">
+            <tr>
+                <td colspan="4"><span id="pantalla"></span></td>
+            </tr>
+
+            <tr>
+                <td colspan="2"><button id="clear" class="bg-danger"><i class="fas fa-backspace"></i></button></td>
+                <td><button id="porcentaje">%</button></td>
+                <td><button id="division">÷</button></td>
+            </tr>
+
+            <tr>
+                <td><button id="siete">7</button></td>
+                <td><button id="ocho">8</button></td>
+                <td><button id="nueve">9</button></td>
+                <td><button id="multiplicacion">x</button></td>
+            </tr>
+
+            <tr>
+                <td><button id="cuatro">4</button></td>
+                <td><button id="cinco">5</button></td>
+                <td><button id="seis">6</button></td>
+                <td><button id="resta">-</button></td>
+            </tr>
+
+            <tr>
+                <td><button id="uno">1</button></td>
+                <td><button id="dos">2</button></td>
+                <td><button id="tres">3</button></td>
+                <td><button id="suma">+</button></td>
+            </tr>
+
+            <tr>
+                <td colspan="2"><button id="cero">0</button></td>
+                <td><button id="decimal">.</button></td>
+                <td><button id="igual" class="bg-primary">=</button></td>
+            </tr>
+
+        </table>
+
+    </div>
+</body>
+</html>

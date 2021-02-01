@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+
+#calculadora {
+    display: block;
+    position: absolute;
+    width: 229px;
+    height: 369px;
+    top: 100px;
+    left: 400px;
+    text-align: center;
+    background-color: rgba(0,0,0,0.8);
+    font-family: 'Share Tech Mono', monospace;
+}
+
+#calculadora td button {
+    width: 55px;
+    height: 55px;
+    padding: 0;
+}
+#calculadora #cero{
+    width: 112px;
+}
+#calculadora #clear{
+    width: 112px;
+}
+#calculadora td{
+    padding: 0;
+    height: 55px;
+    width: 55px;
+}
+
+button{
+    border: none;
+    color: #ffffff;
+    background-color: rgba(0,0,0,0);
+}
+
+button:hover{
+    border: none;
+    color: #ffffff;
+    background-image: linear-gradient(35deg,rgba(0,0,0,0.5),rgba(0, 28, 104, 0.5));
+}
+
+#pantalla{
+    display: block;
+    text-align: center;
+    padding: 25px;
+    font-size: 20px;
+    width: 225px;
+    height: 85px;
+    color: #ffffff;
+    font-family: 'Share Tech Mono', monospace;
+}
+
+#clear:hover{
+    background-image: linear-gradient(35deg,rgba(255, 0, 0, 0.5),rgba(255, 51, 0, 0.5));
+}
